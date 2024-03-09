@@ -1,0 +1,308 @@
+.francois-one-regular {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-family: "Francois One", sans-serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #000;
+}
+.social-icons img {
+  width: 20px;
+}
+.login_info .form-control {
+  position: relative;
+  padding: 8px 16px 15px;
+  border-color: #bfbfbf;
+}
+.login_info .form-check-input {
+  border-color: #bfbfbf;
+}
+
+.login_info .mb-3 {
+  position: relative;
+  margin-bottom: 35px !important;
+}
+.login_info .form-label {
+  position: absolute;
+  top: -12px;
+  z-index: 9;
+  left: 20px;
+  background: #ffff;
+  padding: 0px 10px;
+}
+.login_info {
+  padding: 20px 80px 20px;
+}
+.login_info .btn-primary {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border-color: #000;
+  color: #000;
+  font-weight: 700;
+}
+.login_info .btn-primary:active {
+  color: #000;
+}
+.log-in-btn {
+  background: rgb(154, 193, 138);
+  background: linear-gradient(
+    82deg,
+    rgba(154, 193, 138, 1) 0%,
+    rgba(255, 255, 255, 1) 51%,
+    rgba(154, 193, 138, 1) 100%
+  );
+}
+.register-btn {
+  background: rgb(118, 161, 232);
+  background: linear-gradient(
+    82deg,
+    rgba(118, 161, 232, 1) 0%,
+    rgba(255, 255, 255, 1) 51%,
+    rgba(118, 161, 232, 1) 100%
+  );
+}
+.blockquote p {
+  font-size: 24px;
+  font-style: italic;
+  color: #6c757d;
+}
+.login_quote .blockquote-footer {
+  float: right;
+  font-size: 24px;
+  margin-right: 70px;
+}
+.login_quote {
+  padding: 75px 0px;
+}
+.log-title {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.dog-text {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+/*--chatbox--*/
+.chat-profile {
+  background-color: #eaebed;
+}
+.chat-logo img {
+  width: 50px;
+}
+.edit-chat {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+.edit-chat .form-group {
+  position: relative;
+  max-width: 200px;
+  margin: 0px auto;
+}
+.edit-chat .form-control {
+  background-color: #dbebd4;
+  border: 2px solid #595959;
+  font-weight: 700;
+}
+.edit-chat .form-group .pen-icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.chat-profile {
+  background-color: #eaebed;
+  min-height: 600px;
+  height: 100%;
+}
+.today-title {
+  background-color: #dae3d7;
+  padding: 2px 15px;
+}
+.daily-list li {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.pastday-title {
+  background-color: #d9d9d9;
+  padding: 2px 15px;
+}
+.chatbox-footer p,
+.check-imp {
+  font-size: 12px;
+  font-weight: bold;
+}
+.profile-icon {
+  margin-top: 80px;
+}
+.assist-content {
+  padding: 150px 0px;
+}
+.type-chat .form-group {
+  position: relative;
+  width: 75%;
+  margin: 0px auto;
+}
+.type-chat .form-group .form-control {
+  border: 2px solid #333;
+  background-color: #ffffff;
+  box-shadow: 0.1px 0.1px 10px rgb(0 0 0 / 44%);
+  padding-left: 40px;
+}
+.type-chat .form-group .pen-icon {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  color: #ccc;
+  font-size: 18px;
+}
+.chatbox-list-block {
+  max-width: 700px;
+  margin: 0px auto;
+}
+.user-info {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.chat-text {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0px;
+  width: 100%;
+  box-shadow: 0.1px 0.1px 10px rgb(0 0 0 / 35%);
+}
+.user-name {
+  width: 50px;
+  height: 50px;
+  background: #dce7fa;
+  color: #595959;
+  border: 2px solid #595959;
+  font-weight: bold;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  margin-left: 15px;
+  background: rgb(118, 161, 232);
+  background: linear-gradient(
+    110deg,
+    rgba(118, 161, 232, 1) 0%,
+    rgba(255, 255, 255, 1) 28%,
+    rgba(118, 161, 232, 1) 100%
+  );
+}
+.chatbox-section {
+  min-height: 450px;
+}
+.self-text img {
+  width: 45px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.self-text {
+  position: relative;
+}
+.like-icons {
+  width: 100%;
+  position: absolute;
+  bottom: -25px;
+  left: 60px;
+}
+.chatbox-list-items li:nth-child(odd) {
+  margin-left: 100px;
+}
+.chatbox-list-items li:nth-child(even) {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+.chatbox-list-items li {
+  margin-bottom: 30px;
+}
+.like-icons li a {
+  color: #595959;
+}
+.like-icons li {
+  margin: 0px !important;
+  padding: 0px 3px;
+}
+#v-pills-tabContent .form-group {
+  margin-bottom: 20px;
+}
+.custom-switch .form-check .form-check-input {
+  float: right;
+}
+.custom-switch .form-switch {
+  margin-bottom: 7px;
+}
+.tab-profile-list .nav-link {
+  border: 1px solid #000;
+  margin-bottom: 20px;
+  color: #000;
+  font-weight: bold;
+  padding: 6px 10px;
+}
+.tab-profile-list .nav-pills .nav-link.active {
+  background-color: #eeeeee;
+  color: #000;
+}
+#v-pills-recommend-tab {
+  background-color: #d9ead3;
+  color: #000;
+  margin-top: 50px;
+}
+.tab-profile-content .form-group label {
+  margin-bottom: 6px;
+}
+.profile-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Register Form */
+
+.regform input {
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.regform span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+.regform input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+.regform input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .login_info {
+    padding: 0px;
+  }
+}
