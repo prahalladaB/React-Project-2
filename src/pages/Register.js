@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import SocialMedia from "./SocialMedia";
 import FormInput from "./FormInput";
+import emailjs from "emailjs-com";
+import SendEmail from "../emails/SendEmail";
 const Register = () => {
   const [values, setValues] = useState({
     email: "",
@@ -52,6 +54,22 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_tnpp5vi",
+        "template_knziin1",
+        e.target,
+        "IkZRLENHxbeCF_qZy"
+      )
+      .then(
+        (result) => {
+          window.location.reload(); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   };
 
   const onChange = (e) => {
