@@ -4,6 +4,8 @@ import SocialMedia from "./SocialMedia";
 import FormInput from "./FormInput";
 import emailjs from "emailjs-com";
 import SendEmail from "../emails/SendEmail";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 const Register = () => {
   const [values, setValues] = useState({
     email: "",
@@ -75,6 +77,11 @@ const Register = () => {
   const onChange = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <section>
       <div className="container">
@@ -101,6 +108,9 @@ const Register = () => {
                     <label className="form-check-label" htmlFor="gridCheck">
                       I agree with the{" "}
                       <Link to="/privacy-policy">Terms and Privacy Policy</Link>
+                      <Button variant="primary" onClick={handleShow}>
+                        Launch demo modal
+                      </Button>
                     </label>
                   </div>
                 </div>
@@ -138,6 +148,20 @@ const Register = () => {
           </div>
         </div>
       </div>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal heading</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </section>
   );
 };
